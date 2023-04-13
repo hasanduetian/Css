@@ -1,0 +1,153 @@
+
+*{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+body{
+ font-family: sans-serif;
+ background-color: tan;
+}
+.navbar{
+ background-color: blueviolet;
+ padding: 2% 7%;
+ text-align: center;
+
+}
+.navpic img{
+    border-radius: 50px;
+}
+ h1{
+ color: white;
+ text-align: center;
+ padding: 15px 0px;
+ margin: 0;
+}
+.navmenu{
+ display: flex;
+ flex-direction: column;
+
+}
+.navmenu a{
+ text-decoration: none;
+ color: white;
+ padding: 16px;
+ background-color: #363e85;
+ border-radius: 50px;
+ margin: 10px 0px;
+}
+.navmenu a:hover{
+    background-color: palevioletred;
+}
+[class*="col-"]{
+ float: left;
+ padding: 10px;
+
+}
+/* for mobile */
+[class*="col-"]{
+ width: 100%;
+}
+/* float clear */
+.navbar::after{
+ content: '';
+ clear: both;
+ display: table;
+} 
+.profile{
+    padding: 30px;
+    position: relative;
+    text-align: center;
+}
+.topimg{
+    width: 200px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+   
+}
+.topimg img{
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 2s linear 0.5s;
+}
+.topimg img:hover{
+    transform: rotate(1080deg);
+}
+.profiledetiels{
+    text-align: center;
+    margin:180px 0 ;
+}
+.bottomimg{
+    width: 200px;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+.bottomimg img{
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 2s linear 0.5s;
+}
+.bottomimg img:hover{
+    transform: rotate(1080deg);
+}
+.profile::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.aboutme{
+    padding: 30px;
+    background-color: slateblue;
+    text-align: center;
+    color: white;
+}
+.aboutme::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.hrigantal{
+    border-bottom: dotted 6px white;
+    width: 70px;
+    text-align: center;
+    margin: 20px auto;
+}
+.aboutimg{
+    height: 300px;
+    width: 250px;
+    margin-bottom: 20px ;
+    text-align: center;
+    margin-left: 80px;
+}
+.aboutimg img{
+    width: 100%;
+    height: 100%;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin:0 auto;
+}
+.detials p{
+    margin: 20px;
+    font-weight: bold;
+}
+.detials p a{
+    text-decoration: none;
+    color: white;
+}
+.cvbtn{
+    color: rgb(241, 227, 227);
+    background-color: rgb(59, 38, 107);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    /* text-transform: capitalize; */
+    cursor: pointer;
+}
+.cvbtn:hover{
+    background-color: rgb(226, 198, 43);
+    color: black;
+}
