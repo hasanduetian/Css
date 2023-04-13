@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive webside with grid view</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        
+        .header{
+            background-color: #ff5200;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar{
+            background-color:teal;
+            padding: 1% 5%;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: 10px;                        
+        }
+        .blog{
+            padding: 1% 5%;
+            background-color: turquoise;
+        }
+        .about{
+            background-color: tan;
+            padding: 1% 5%;
+        }
+        footer{
+            background-color: rgb(10, 8, 8);
+            color: white;
+            padding:3%;
+            text-align: center;
+            /* border-radius: 50px; */
+        }
+
+
+        /* for mobile */
+        [class*=col-]{
+            float: left;
+            padding: 10px;
+
+        }
+
+        .content{
+            content: '';
+            clear: both;
+            display: table;
+        }
+        
+        [class*=col-]{
+                width: 100%;
+
+            }
+            .navbar a{
+                background-color: tomato;
+                margin-bottom: 5px;
+                border-radius: 50px;
+                text-align: center;
+            }
+            /* mobile end */
+            /*for tablate design*/
+            @media screen and (min-width: 700px){
+
+
+            /* for tablate */
+            .col-s-1{width:8.33%;}
+            .col-s-2{width:16.66%;}
+            .col-s-3{width:25%;}
+            .col-s-4{width:33.33%;}
+            .col-s-5{width:41.66%;}
+            .col-s-6{width:50%;}
+            .col-s-7{width:58.33%;}
+            .col-s-8{width:66.66%;}
+            .col-s-9{width:75%;}
+            .col-s-10{width:83.33%;}
+            .col-s-11{width:91.66%;}
+            .col-s-12{width:100%;}
+
+            }
+            /*tablate design end*/
+
+        @media screen and (min-width: 900px){
+
+
+         /* for desktop */
+        .col-1{width:8.33%;}
+        .col-2{width:16.66%;}
+        .col-3{width:25%;}
+        .col-4{width:33.33%;}
+        .col-5{width:41.66%;}
+        .col-6{width:50%;}
+        .col-7{width:58.33%;}
+        .col-8{width:66.66%;}
+        .col-9{width:75%;}
+        .col-10{width:83.33%;}
+        .col-11{width:91.66%;}
+        .col-12{width:100%;}
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mahamudul hasan</h1>
+    </div>
+    <div class="content">
+        <div class="navbar col-s-3 col-2">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">OTHERS</a>
+        </div>
+        <div class="blog col-s-9 col-7">
+            <h2>I AM A WEB DESIGNER</h2>
+            <p>Vero ipsum lorem sit voluptua ipsum accusam tempor et, amet sadipscing no sit et no. Sadipscing amet voluptua no et et lorem labore. Magna tempor dolores labore aliquyam clita. Vero ipsum at amet est, dolore sed sit gubergren sanctus lorem dolore. Accusam consetetur stet dolore clita stet et sadipscing, eirmod elitr sit nonumy sadipscing et diam diam. Labore sea lorem amet accusam magna et sea lorem, no sed ipsum et takimata sadipscing vero clita magna. Dolores lorem dolor amet amet tempor justo diam et diam, sanctus kasd et amet amet est kasd dolor sit amet, voluptua et vero takimata elitr consetetur diam eos ea, dolores magna aliquyam diam elitr sadipscing labore, eos justo consetetur est eos magna sit diam aliquyam. Amet diam dolores duo labore tempor. Vero elitr dolores lorem dolores voluptua magna dolor gubergren et. Lorem et erat rebum sanctus magna rebum ipsum, ea dolores eos sit sea erat no vero sadipscing, sed no elitr tempor lorem nonumy et aliquyam. Justo gubergren erat dolores elitr dolore sit et sit amet, amet est voluptua elitr rebum dolor erat elitr tempor. Ipsum vero lorem clita dolor eirmod nonumy. Sanctus eirmod takimata et amet, duo gubergren eos et lorem elitr, ut sanctus ipsum et sea clita aliquyam rebum, eos voluptua sanctus lorem duo voluptua et, ipsum sea erat gubergren dolor sea. Sanctus at nonumy vero consetetur eirmod. Sed sadipscing et invidunt labore stet. Clita justo labore invidunt et rebum clita no amet dolore, vero invidunt justo ea magna erat duo diam invidunt eirmod. Stet sed rebum lorem lorem. Sea eos amet labore amet et gubergren vero, invidunt tempor ea dolor est et sadipscing at justo est. Takimata elitr nonumy vero diam justo consetetur. Tempor dolore no no sed et eirmod. Labore et accusam dolor amet elitr sea, et at rebum ipsum vero no stet lorem. Dolores ipsum et labore amet clita eos, amet amet ipsum et ipsum labore eos elitr, vero et erat sed et amet tempor, sed amet sadipscing amet dolor. Ipsum diam gubergren lorem elitr. Vero consetetur rebum amet voluptua. Ipsum justo diam ipsum sed et et lorem. Ut amet diam consetetur magna accusam eirmod dolore consetetur et, ipsum magna dolor dolor sadipscing at magna sit sanctus vero. Labore gubergren ipsum dolore vero at sit nonumy tempor, consetetur dolor et ut tempor ut. Erat justo sit sed et. Dolores vero sit kasd sit tempor nonumy stet et tempor. Dolor amet invidunt ipsum amet ipsum. Rebum dolore invidunt et et et dolore, ea amet dolor gubergren accusam, invidunt elitr rebum diam erat aliquyam ut, gubergren magna duo duo sadipscing sed justo duo ipsum, at lorem voluptua ut magna dolor. Dolor tempor takimata takimata justo lorem et sadipscing, lorem stet sea dolor lorem invidunt et, gubergren invidunt et dolor clita ipsum ipsum rebum, rebum diam nonumy dolore lorem et duo ut ut dolor, et voluptua lorem sadipscing diam dolor. Clita et rebum et diam diam stet, kasd stet sanctus lorem sed et eos sed sed lorem, et diam eirmod et ea ipsum,.  
+                <br><br>Eirmod magna ea sea amet ea amet. Est est voluptua dolor dolor, dolores ut dolore tempor et accusam et dolor. Diam stet elitr aliquyam voluptua, eirmod dolores ipsum duo amet ipsum. Sadipscing accusam elitr nonumy diam consetetur sed, gubergren sit diam sit invidunt sit, takimata consetetur dolores sadipscing invidunt sit justo kasd, voluptua sed sea aliquyam no et sit accusam nonumy labore. Stet ipsum tempor vero no clita, justo aliquyam voluptua sed consetetur, consetetur et eirmod consetetur sit elitr. Duo ea aliquyam clita sadipscing et voluptua. Invidunt sit aliquyam et tempor nonumy sed. Dolore dolor eirmod sed aliquyam voluptua clita ea eos amet. Lorem eos dolor tempor et. Gubergren kasd elitr lorem clita dolor dolor magna. Magna ut duo duo kasd rebum labore lorem eos diam, consetetur accusam est sanctus eirmod sed. Sit clita sea est sed nonumy et est sadipscing, lorem amet amet dolores nonumy amet labore. Aliquyam voluptua gubergren labore dolores sit et dolor. Ipsum lorem justo est at, amet amet sanctus et kasd kasd dolor clita nonumy. Et consetetur eos stet vero magna rebum tempor gubergren, gubergren eirmod dolores amet labore sit sanctus rebum clita justo. Eos ut sit nonumy lorem eos sanctus et. At invidunt dolore at dolor at, diam et dolores gubergren vero erat duo. Voluptua eos magna tempor ea lorem. Dolore consetetur et sadipscing accusam. No erat stet vero elitr ut diam magna elitr nonumy. Amet ut ipsum justo justo tempor. Duo sea kasd at et sit dolores. Sadipscing dolores tempor est ipsum ipsum duo. Ea ea sit invidunt rebum diam nonumy et lorem sed, ea stet eos voluptua eos amet consetetur dolor at, magna sed ipsum stet eos et invidunt dolor stet. Amet labore voluptua erat rebum vero est dolor. Takimata vero kasd tempor et et sed, no sit et tempor no vero.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime animi porro officia incidunt expedita quibusdam quia voluptate ducimus velit aliquid explicabo repudiandae, eius in iste deleniti cupiditate perspiciatis rem?
+            </p>
+            
+        </div>
+        <div class="about col-s-12 col-3">
+            <h2>what i do ?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos culpa eius nisi exercitationem dolorum magnam amet velit doloribus mollitia, ipsa quod corrupti iusto, fugit soluta accusamus aut impedit tenetur maiores.</p>
+
+            <h2>what i do ?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos culpa eius nisi exercitationem dolorum magnam amet velit doloribus mollitia, ipsa quod corrupti iusto, fugit soluta accusamus aut impedit tenetur maiores.</p>
+
+            <h2>what i do ?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos culpa eius nisi exercitationem dolorum magnam amet velit doloribus mollitia, ipsa quod corrupti iusto, fugit soluta accusamus aut impedit tenetur maiores.</p>
+
+            <h2>what i do ?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos culpa eius nisi exercitationem dolorum magnam amet velit doloribus mollitia, ipsa quod corrupti iusto, fugit soluta accusamus aut impedit tenetur maiores.</p>
+
+        </div>
+       
+    </div>
+    <footer>
+        &copy;Mahamudul hasan
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow and tolltip</title>
+
+    <style type="text/css">
+    .div1{
+        height: 100px;
+        width: 300px;
+        background-color: brown;
+        border: rgb(7, 233, 7) solid 3px;
+        overflow: auto;
+        color: rgb(213, 235, 16);
+    }
+    .tooltip{
+        position: relative;
+    }
+    .tooltip .tooltip-text{
+        background-color: rgb(0, 3, 209);
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        visibility: hidden;
+        z-index: 1px;
+        width: 160px;
+    }
+    .tooltip:hover .tooltip-text{
+        visibility: visible;
+    }
+
+    </style>
+</head>
+<body>
+    
+            <a href="#" class="tooltip">
+                facebook
+            <span class="tooltip-text">facebook is a weaster network</span>
+            </a>
+    <br><br>
+    <div class="div1">
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis delectus temporibus maiores veritatis officia cupiditate pariatur sint culpa nostrum beatae vero, sapiente exercitationem ipsum hic incidunt consequatur illo minima iste! Are to den not but there lines so be would in, ere a cheer basked friends childe childe. Ah times he sad is yes heavenly, in a reverie from childe but brow thy that lemans, the maidens of sing below waste only ofttimes. That start parasites and almost in in.</p>
+    </div>
+</body>
+</html>

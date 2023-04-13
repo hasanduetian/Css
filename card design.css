@@ -1,0 +1,33 @@
+.container{
+background-color: yellowgreen;
+padding: 20px;
+display: flex;
+}
+.card{
+width: 300px;
+margin: 20px ;
+padding: 20px 0;
+box-sizing: border-box;
+box-shadow: -20px 30px 5px black;
+}
+.card:hover{
+    box-shadow: rgb(236, 15, 15) 20px px 5px;
+}
+.img1{
+    width: 100%;
+    /* margin-bottom: -26px; */
+
+}
+.card-body{
+   background-color: rebeccapurple;
+   color: white;
+    padding:10px;
+}
+.card-tittel{
+    font-size: 2rem;
+    text-align: center;
+}
+.card-detiels{
+    line-height: 2rem;
+    text-align: justify;
+}

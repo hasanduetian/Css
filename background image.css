@@ -1,0 +1,12 @@
+body{
+	width: 100%;
+	background-color: pink;
+	background-image: url(unnamed.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	color:rgb(2, 23, 43);
+
+
+	/* background: #fff url(batterfly.jpg) no-repeat center fixed  sob gula akshatha use kora jaba */
+}

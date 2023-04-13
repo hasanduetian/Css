@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rsponsive navbar</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .navcontent{
+            background-color: palevioletred;
+            padding: 10px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .navcontent a{
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .navcontent a:hover{
+            background-color: rgb(42, 111, 156);
+        }
+        @media screen and (max-width: 700px){
+            .navcontent{
+                flex-direction: column;
+                /* background-color: coral; */
+
+            }
+            .navcontent a{
+                /* border: 1px solid red; */
+                background-color: indigo;
+                border-radius: 50px;
+                text-align: center;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navcontent">
+        <a href="#">Home</a>
+        <a href="#">page</a>
+        <a href="#">about us</a>
+        <a href="#">contact us</a>
+    </div>
+</body>
+</html>

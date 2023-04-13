@@ -1,0 +1,38 @@
+.div{
+    border: 3px solid rgb(74, 20, 199);
+    padding: 10px;
+    position:fixed;
+    left: 0;
+}
+.div1{
+    border: 3px solid red;
+    padding: 10px;
+    position: static;
+}
+.div2{
+    border: 3px solid rgb(255, 230, 0);
+    padding: 10px;
+    position: relative;
+    left: 50px;
+}
+.div3{
+    border: 3px solid rgb(240, 38, 189);
+    padding: 10px;
+    position: relative;
+    height: 500px;
+   
+}
+.div4{
+    border: salmon solid 3px;
+    padding: 10px;
+    position: absolute;
+    left: 550px;
+    top: 150px;
+}
+.sticky{
+    border: slateblue solid 3px;
+    background-color: rgb(161, 209, 30);
+    padding:10px ;
+    position: sticky;
+    top: 0;
+}

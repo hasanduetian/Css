@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout part 2</title>
+    <style>
+        .itme1{grid-area: header;}
+        .itme2{grid-area: menu;}
+        .itme3{grid-area: item;}
+        .itme4{grid-area: about;}
+        .itme5{grid-area: footer;}
+        .gridcontainer{
+            display: grid;
+            grid-template-areas: 
+            'header header header header header header'
+            'menu item item item about about'
+            'menu footer footer footer footer footer'
+            ;
+        }
+        .gridcontainer>div{
+            background-color: cyan;
+            border: 2px solid red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridcontainer">
+        <div class="item1">
+            <h1>header</h1>
+        </div>
+        <div class="item2">
+            <h1>menu</h1>
+        </div>
+        <div class="item3">
+            <h1>item</h1>
+        </div>
+        <div class="item4">
+            <h1>about</h1>
+        </div>
+        <div class="item5">
+            <h1>footer</h1>
+        </div>
+    </div>
+</body>
+</html>

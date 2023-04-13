@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1000px;
+    background-color: skyblue;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+body{
+    background-color: rosybrown;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#header{
+    background-color: rgb(51, 5, 5);
+}
+.profile{
+    height: 170px;
+    width: 190px;
+    border: slateblue solid 10px;
+    border-radius: 50%;
+    float: left;
+   
+    
+}
+.header-bio{
+    float: left;
+    padding: 50px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: orangered;
+
+}
+.contac{
+    float: right;
+    padding: 50px;
+}
+.contac a{
+    color: tomato;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 20px;
+}
+.contac a:hover{
+    text-decoration: underline;
+    color:navy;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border-top: black solid 5px;
+    width: 100%;
+    margin:20px auto;
+}
+.contain{
+    margin: 20px;
+}
+.left-info{
+    float: left;
+    width: 30%;
+}
+.right-info{
+float: right;
+width: 70%;
+font-weight: bold;
+color: black;
+}
+.common-hr{
+    border: black solid 1px;
+    border-bottom: none;
+    width: 100%;
+}
+.edu1{
+    float: left;
+    width: 45%;
+}
+.edu2{
+    float: left;
+    width: 45%;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.footer a{
+    text-decoration: none;
+    margin:20px;  
+    color: aliceblue; 
+}
+.footer p{
+    color: white;   
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: lawngreen;
+}

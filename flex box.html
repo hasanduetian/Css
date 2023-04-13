@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex box</title>
+	<style type="text/css">
+		.flex-container{
+			background-color: coral;
+			display: flex;
+			 /* flex-wrap: wrap;
+			flex-direction: row; */
+			flex-flow: row wrap;
+			justify-content:center;
+			height: 500px;
+			align-items: center; 
+		}
+		.flex-container > div{
+			background-color: rgb(95, 11, 45);
+			padding: 20px;
+			margin: 20px;
+			color: white;
+			font-size: 40px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="div1" style=" order: 2; flex-basis: 300px;">div1</div>
+		<div class="div2" style=" order: 1; flex-basis: 300px;">div2</div>
+		<div class="div3" style=" order: 3;">div3</div>
+		<div class="div4" style=" order: 4;">div4</div>
+		<div class="div4" style=" order: 5;">div5</div>
+		<div class="div5" style=" order: 6;">div6</div>
+		<div class="div6" style=" order: 7;">div7</div>
+		<div class="div7" style=" order: 8;">div8</div>
+ 	</body>
+</html>

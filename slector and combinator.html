@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>selector and combinator</title>
+		<style type="text/css">
+
+		body{
+			background-color: pink;
+			font-size: 20px;
+			text-align: center;
+		}
+
+
+	/*		*{								/*universal selector*/				/*
+				background-color:pink;
+				font size: 20px; 
+			}
+
+		/*	 h1,h2,p{						/*gruping selector*/				/*
+				background-color: red;
+				color: white;
+			}*/
+
+		/*	div p{							/*decendent selector*/				/*
+				color: orange
+			}*/
+
+		/*	div > p{						/*child selector*/					/*
+				color: red
+			}*/
+
+		/*	div + p{						/*adjasen sevling selector*/		/*
+				color: red
+			}*/
+
+			div ~ p{						/*genaral sevling  selector*/		
+				color: red
+			}*/
+
+		</style>
+	</head>
+		<body>
+
+			<h1>this is a heading one </h1>
+				<h2>this is a heading two</h2>
+
+					<div>
+						<p>this is para one</p>
+							<p>this is para two</p>
+								<section><p>this is para three</p></section>
+					</div>
+
+			<p> my name is mahamudul hasan </p>
+				<p>my college name is rangpur polytechnic institute</p>
+
+		</body>
+</html>

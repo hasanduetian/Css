@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive collun design </title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .collum{
+            flex: 25%;
+            padding: 10px;
+            background-color: chocolate;
+            margin-bottom: 5px;
+        }
+        @media screen and (max-width: 990px){
+            .collum{
+                flex: 50%;
+            }
+        }
+            @media screen and (max-width: 600px){
+            .row{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="collum">
+            <h1>HTML</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore corporis assumenda, similique, nesciunt commodi obcaecati fugit unde ea doloremque alias facere hic asperiores laudantium eum! At fugiat quaerat debitis nihil.</p>
+        </div>
+        <div class="collum">
+            <h1>CSS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore corporis assumenda, similique, nesciunt commodi obcaecati fugit unde ea doloremque alias facere hic asperiores laudantium eum! At fugiat quaerat debitis nihil.</p>
+        </div>
+        <div class="collum">
+            <h1>JAVASCRIPT</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore corporis assumenda, similique, nesciunt commodi obcaecati fugit unde ea doloremque alias facere hic asperiores laudantium eum! At fugiat quaerat debitis nihil.</p>
+        </div>
+        <div class="collum">
+            <h1>PHP</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore corporis assumenda, similique, nesciunt commodi obcaecati fugit unde ea doloremque alias facere hic asperiores laudantium eum! At fugiat quaerat debitis nihil.</p>
+        </div>
+    </div>
+</body>
+</html>
