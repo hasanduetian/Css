@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My university design</title>
+    <link rel="stylesheet" href="my university.css">
+    <link rel="stylesheet" href="my university desktop.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+   
+</head>
+
+<body>
+    <!-- header start here -->
+    <header class="subheader">
+        <div class="container">
+            <nav>
+                <a href="#"><img src="images/logo.png" alt="this is logo"></a>
+                <div class="navbar" id="navlink">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        
+                        <li><a href="my university.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="course.html">course</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>          
+           
+            </div>
+            <h1 class="abouthead">CONTACT US</h1>
+    </header>
+    <!-- header end here -->
+    <!-- main start here -->
+    <main>
+      <section>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.2776458449816!2d89.43299541484458!3d25.16010128391349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fd1db4e9e4c94d%3A0x2b7bccd401d230f!2z4Kab4KeL4KafIOCmheCmreCmv-CmsOCmvuCmruCmquCngeCmsCDgpqrgprbgp43gpprgpr_gpq4g4Kaq4Ka-4Kec4Ka-IOCmnOCmvuCmruCnhyDgpq7gprjgppzgpr_gpqY!5e0!3m2!1sen!2sbd!4v1621953763666!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="row">
+            <div class="con-col">
+
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Ovi-rampur,Rakhalburuj</h5>
+                        <p>Gobidogonj,Gaibandha</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+880 1705870272</h5>
+                        <p>Satarday to Thusday 10 Am to 6 Pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>hasanrpi024@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="con-col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea cols="30" rows="10" placeholder="Messages..." required></textarea>
+                    <button class="redbtn" type="submit">Send Messafe</button>
+                </form>
+            </div>
+          </div>
+      </section>
+       
+    </main>
+    <!-- main end here -->
+
+
+    <!-- fotter start here -->
+    <footer>
+        <h2 class="h2">about us</h2>
+        <p class="para"> Lorem i amet consectetur adipisicing elit. Pariatur,psum dolor sit quaerat? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, adipisci.</p>
+        <div class="socialicon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p class="para">Made with <span>&copy;</span>&copy; Mahamudul Hasan</p>
+    </footer>
+    <!-- fotter end here -->
+
+
+    <!-- this javascript for toggle menu -->
+    <script>
+        var navlink = document.getElementById("navlink");
+            function showMenu(){
+                navlink.style.right="0";
+            }
+            function hideMenu(){
+                navlink.style.right="-200px";
+            }
+        
+    </script>
+
+</body>
+
+</html>

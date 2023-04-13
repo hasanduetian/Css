@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My university design</title>
+    <link rel="stylesheet" href="my university.css">
+    <link rel="stylesheet" href="my university desktop.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+   
+</head>
+
+<body>
+    <!-- header start here -->
+    <header class="subheader">
+        <div class="container">
+            <nav>
+                <a href="#"><img src="images/logo.png" alt="this is logo"></a>
+                <div class="navbar" id="navlink">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        
+                        <li><a href="my university.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="course.html">course</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>          
+           
+            </div>
+            <h1 class="abouthead">ABOUT US</h1>
+    </header>
+    <!-- header end here -->
+    <!-- main start here -->
+    <main>
+      <section>
+          <div class="row">
+              <div class="about-col">
+                  <h1 class="h1">WE ARE THE WORLD'S LARGEST <br> UNIVERSITY</h1>
+                  <P class="para1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestias modi consequatur in debitis excepturi aperiam at quaerat mollitia non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quaerat dicta inventore odit voluptate non. Sed repellat blanditiis saepe fugit rem architecto! Quod maiores sint aperiam pariatur reprehenderit! Eum, ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat in culpa. Delectus sint quas tenetur exercitationem, illum atque iste!</P>
+                  <button class="redbtn">EXPLORE NOW</button>
+              </div>
+              <div class="about-col">
+                <img src="images/about.jpg" alt="this is about image.">
+            </div>
+          </div>
+      </section>
+       
+    </main>
+    <!-- main end here -->
+
+
+    <!-- fotter start here -->
+    <footer>
+        <h2 class="h2">about us</h2>
+        <p class="para"> Lorem i amet consectetur adipisicing elit. Pariatur,psum dolor sit quaerat? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, adipisci.</p>
+        <div class="socialicon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p class="para">Made with <span>&copy;</span>&copy; Mahamudul Hasan</p>
+    </footer>
+    <!-- fotter end here -->
+
+
+    <!-- this javascript for toggle menu -->
+    <script>
+        var navlink = document.getElementById("navlink");
+            function showMenu(){
+                navlink.style.right="0";
+            }
+            function hideMenu(){
+                navlink.style.right="-200px";
+            }
+        
+    </script>
+
+</body>
+
+</html>

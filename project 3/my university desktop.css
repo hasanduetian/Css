@@ -1,0 +1,58 @@
+@media(max-width:700px){
+     .textbox h1{
+        font-size: 20px;
+    }
+    .navbar ul li{
+        display: block;
+    }
+    .navbar{
+        height: 100vh;
+        width: 200px;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        background: #f44336;
+        z-index: 2;
+        text-align: left;
+        transition: 1s;
+     
+    }
+    .navbar ul{
+        padding: 20px;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    /* end header css */
+
+    /* start courses css */
+    .row{
+        flex-direction: column;
+    }
+    .single-cours{
+        margin-bottom: 20px;
+    }
+    .fac-col{
+        margin-bottom: 30px;
+    }
+    /* end courses css */
+
+    /* start onlinecourse */
+    .onlinehead h1{
+        font-size: 20px;
+    }
+    /* end onlinecourse */
+    footer{
+        margin: 50px 0;
+    }
+    /* blog page */
+    .abouthead{
+        font-size: 24px;
+    }
+    
+    
+}
