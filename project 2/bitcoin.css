@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   background-color:#42455a ;
+}
+    /* header start */
+header{
+    margin: 20px;
+    padding: 20px;
+}
+.logo{
+    width: 40px;
+    margin-right: 80px;
+    
+    
+}
+.logo img{
+    width: 100%;
+    background-color:#42455a ;
+}
+ul{
+   display: inline-flex;
+   text-align: center;
+   position: relative;;
+}
+ul li{
+    list-style-type: none;
+    color: snow;
+    font-size: 1.3rem;
+    margin: 20px;
+    display: flex;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+#select{
+    color: rgb(253, 152, 0) !important;
+}
+.singup{
+   width: 65px;
+   position: absolute;
+   display: inline;
+   top: 57px;
+   right: 80px;
+   border: none;
+}
+.singup button{
+    border: 2px solid transparent; 
+    color: #fff;
+    border-radius: 20px;
+    background-image: linear-gradient( #42455a, #42455a),
+   radial-gradient(circle at top left,#fd00da,#19d7f8 );
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    font-size: 15px;
+    cursor: pointer;
+}
+.singup button span{
+    display: block;
+    padding: 10px;
+}
+    /* header end  */
+
+    /* main start */
+    .leftcontent{
+        width: 80%;
+        height: 70%;
+        position: absolute;
+        left: 130px;
+        top: 25%;
+        color: #fff;
+        float: left;
+    }
+
+    .contentheader{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .contentpara{
+
+        width: 400px;
+        color: rgb(139, 136, 136);
+        margin-bottom: 20px;
+    }
+    .contentbtn{
+        height: 50px;
+        width: 50px;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        background-image: linear-gradient( #42455a, #42455a),
+        radial-gradient(circle at top left,#fd00da,#19d7f8 );
+         background-origin: border-box;
+         background-clip: content-box,border-box;
+         cursor: pointer;
+         text-align: center;
+    }
+    .contentbtn .fa{
+        padding: 15px 0px;
+        font-size: 15px;
+    }
+    small{
+       position: absolute;
+       left: 5.5%;
+       bottom: 320px;
+       letter-spacing: 2px;
+       cursor: pointer;
+       color: #19dafa;
+       font-weight: bold;
+    }
+    .rightcontent{
+        width: 50%;
+        height: 500px;
+        float: right;
+
+    }
+    .rightcontent img{
+        width: 100%;
+        height: 100%;
+        background-color: #42455a;
+    }
+
+    /* main end */
